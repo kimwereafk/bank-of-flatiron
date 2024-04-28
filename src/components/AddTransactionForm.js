@@ -9,7 +9,7 @@ export function AddTransactionForm() {
   function handleSubmit(e) {
     e.preventDefault(); 
 
-    fetch("http://localhost:3000/transactions", {
+    fetch("http://localhost:8001/transactions", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
